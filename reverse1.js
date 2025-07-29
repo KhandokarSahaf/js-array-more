@@ -23,12 +23,12 @@ for (let i = 0; i < fruits.length; i++) {
 }
 console.log(fruit);
 
-// using for loop and push 
+// using for loop and push
 const Numbers = [10, 20, 30, 40, 50];
 const num = [];
 
-for(let x = Numbers.length - 1; x >= 0; x--){
-    const hellNumbers = Numbers[x];
-    num.push(hellNumbers);
+for (let x = Numbers.length - 1; x >= 0; x--) {
+  const hellNumbers = Numbers[x];
+  num.push(hellNumbers);
 }
 console.log(num);
